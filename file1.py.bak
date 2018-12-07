@@ -1,0 +1,13 @@
+list =["tom","lucy","jerry"]
+name=input("please input name:")
+length=len(list)
+flag=0
+for temp in list:
+	if name==temp:
+		flag=1
+		break
+if flag==0:
+	print("ok")
+else:
+	print("not ok")
+
